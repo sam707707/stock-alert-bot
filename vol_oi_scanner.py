@@ -24,7 +24,7 @@ WATCHLIST = ["AAPL", "NVDA", "CRWV", "TTE", "NOK", "AMD", "SOFI", "PLTR"]
 MIN_VOL_OI_RATIO = 2.0
 MIN_VOLUME = 50
 MAX_DTE = 60
-REFRESH_SECONDS = 300  # كل 5 دقائق (عدّلها زي ما تبي)
+REFRESH_SECONDS = 0  # كل 5 دقائق (عدّلها زي ما تبي)
 
 EMAIL = os.environ.get("WEBULL_EMAIL")
 PASSWORD = os.environ.get("WEBULL_PASSWORD")
